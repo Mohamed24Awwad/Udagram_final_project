@@ -10,7 +10,7 @@ Parameters:
   EnvironmentName:
     Description: An environment name that will be prefixed to resource names.
     Type: String
-    Default: Udagram
+    Default: Udagramproject
 
   WebServerAMI:
     Description: The machine image to be used for web servers.
@@ -168,14 +168,13 @@ Resources:
     Properties:
       UserData: # define services we would like to install and run in EC2 instances upon launching.
         Fn::Base64: !Sub |
-          #!/bin/bash
-          apt-get update -y
-          apt-get install unzip python3-pip apache2 awscli -y
-          systemctl start apache2.service
-          pip3 install --upgrade awscli
-          cd /var/www/html
-          aws s3 cp s3://udacity-demo-1/udacity.zip .
-          unzip -o udacity.zip
+            #!/bin/bash
+             apt-get update -y
+             apt-get install apache2 -y
+             systemctl start apache2.service
+             sudo service httpd start 
+             cd /var/www/html
+             echo "Hi it works perfectly !!" > index.html
       ImageId: !Ref WebServerAMI
       IamInstanceProfile: !Ref ProfileWithRolesForApp
       SecurityGroups: 
