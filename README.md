@@ -3,7 +3,7 @@ The following document contains instructions on how to deploy a highly available
 
 ## Architecture Diagram
 
-![Diagram](architecture-diagram.png)
+![Diagram](https://raw.githubusercontent.com/Mohamed24Awwad/Udagram_final_project/master/Instances%20Infrastructure.png)
 
 ## Infrastructure Deployment
 
