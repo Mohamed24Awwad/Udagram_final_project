@@ -34,7 +34,7 @@ To update the already existing infrastructure stack run one (or all) the followi
 
     
 
-2. `./update.sh appserversstack application-servers.yaml application-servers-parameters.json`  
+2. `./update.sh appserversstack App-Servers-Config.yml App-Ser ers-Params.son`  
 
 ### Delete infrastructure
 
@@ -44,6 +44,6 @@ To delete the infrastructure stack run the following commands in the same order 
 
 
 
-2.`./delete.sh network`  
+2.`./delete.sh networkstack`  
 
 _Note_: you would have to type 'yes' to confirm the stack deletion in the command prompt.
