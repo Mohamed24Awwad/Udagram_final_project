@@ -16,11 +16,11 @@ The application infrastructure consists of deploying the following stacks:
 
 To create the infrastructure stack run the following commands in the same order as below:
 
-1. `./create.sh network network.yaml network-parameters.json`                                    
+1. `./create.sh networkstack Infra-Config.yml Infra-Params.json`                                    
 
 
 
-2. `./create.sh application-servers application-servers.yaml application-servers-parameters.json`  
+2. `./create.sh appserverstack App-Servers-Config.yml App-Ser ers-Params.son`  
 
 ### Verify deployment
 
@@ -30,17 +30,17 @@ To check whether the web application is running, follow the web application publ
 
 To update the already existing infrastructure stack run one (or all) the following commands:
 
-1. `./update.sh network network.yaml network-parameters.json`                                    
+1. `./update.sh networkstack Infra-Config.yml Infra-Params.json``                                    
 
     
 
-2. `./update.sh application-servers application-servers.yaml application-servers-parameters.json`  
+2. `./update.sh appserversstack application-servers.yaml application-servers-parameters.json`  
 
 ### Delete infrastructure
 
 To delete the infrastructure stack run the following commands in the same order as below:
 
-1. `./delete.sh application-servers`  
+1. `./delete.sh appserversstack`  
 
 
 
