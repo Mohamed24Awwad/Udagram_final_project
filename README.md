@@ -42,8 +42,8 @@ To delete the infrastructure stack run the following commands in the same order 
 
 1. `./delete.sh application-servers`  
 
-2. `./delete.sh bastion-hosts`  
 
-3. `./delete.sh network`  
+
+2.`./delete.sh network`  
 
 _Note_: you would have to type 'yes' to confirm the stack deletion in the command prompt.
