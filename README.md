@@ -18,9 +18,9 @@ To create the infrastructure stack run the following commands in the same order 
 
 1. `./create.sh network network.yaml network-parameters.json`                                    
 
-2. `./create.sh bastion-hosts bastion-hosts.yaml bastion-hosts-parameters.json` 
 
-3. `./create.sh application-servers application-servers.yaml application-servers-parameters.json`  
+
+2. `./create.sh application-servers application-servers.yaml application-servers-parameters.json`  
 
 ### Verify deployment
 
@@ -32,9 +32,9 @@ To update the already existing infrastructure stack run one (or all) the followi
 
 1. `./update.sh network network.yaml network-parameters.json`                                    
 
-2. `./update.sh bastion-hosts bastion-hosts.yaml bastion-hosts-parameters.json`    
+    
 
-3. `./update.sh application-servers application-servers.yaml application-servers-parameters.json`  
+2. `./update.sh application-servers application-servers.yaml application-servers-parameters.json`  
 
 ### Delete infrastructure
 
