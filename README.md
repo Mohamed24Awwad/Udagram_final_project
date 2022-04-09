@@ -30,7 +30,7 @@ To check whether the web application is running, follow the web application publ
 
 To update the already existing infrastructure stack run one (or all) the following commands:
 
-1. `./update.sh networkstack Infra-Config.yml Infra-Params.json``                                    
+1. `./update.sh networkstack Infra-Config.yml Infra-Params.json`                                
 
     
 
