@@ -34,7 +34,7 @@ To update the already existing infrastructure stack run one (or all) the followi
 
     
 
-2. `./update.sh appserversstack App-Servers-Config.yml App-Ser ers-Params.son`  
+2. `./update.sh appserverstack App-Servers-Config.yml App-Ser ers-Params.son`  
 
 ### Delete infrastructure
 
